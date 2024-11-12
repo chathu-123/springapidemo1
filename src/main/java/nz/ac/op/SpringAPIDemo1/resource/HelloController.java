@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/")
-    public String sayHello(){
+    public String Hello(){
         return "Welcome to Spring boot REST API Build by Chathuni";
     }
     @GetMapping("/hello")
